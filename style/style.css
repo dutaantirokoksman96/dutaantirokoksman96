@@ -1,0 +1,239 @@
+
+.jumbotron{
+    background-image: url(../style/img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color: #414F79;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar-brand img{
+    max-width: 60px;
+}
+.navbar-brand{
+    margin-left: 15px;
+    max-width: 20px;
+}
+.navbar{
+    max-height: 80px;
+    transition: 1.5s;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.navbar img{
+    width: 100px;
+    height: auto;
+}
+.nav-link{
+    margin-right: 30px;
+    transition: 0.4s;
+    font-family: 'Concert One', sans-serif;
+}
+:hover.nav-link{
+    background-color: #ea5c15;
+    border-radius: 20px;
+    
+}
+.display-4{
+    color: white;
+    margin-top: 40px;
+    font-family: 'Concert One', sans-serif;
+}
+.lead{
+    color: white;
+}
+.jumbotron p{
+    color: white;
+}
+.btn-primary{
+    background-color: #ea5c15 !important;
+    border-radius: 20px !important;
+    border: 0px solid white !important;
+    font-family: 'Concert One', sans-serif;
+}
+.btn-primary:hover{
+    border-radius:10px !important;
+    transition: 1s;
+}
+.tentang-kami{
+    background-color: #414F79;
+    margin-top: -40px;
+    padding-top: 40px;
+    left: 50%;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.judul{
+    color: white;
+    font-family: 'Concert One', sans-serif;
+    font-size: 30px;
+}
+hr {
+    border: 10px solid red;
+  }
+.deskripsi{
+    text-align: center;
+    color: white;
+    max-width: 70%;
+    margin-top: 20px;
+}
+.visi-misi{
+    border-top-left-radius:40px ;
+    border-top-right-radius:40px ;
+    background-color: white;
+    z-index: 9999;
+    margin-top: -28px;
+    margin-bottom: 0;
+    padding-top: 30px;
+    display: flex;
+}
+.visi , .misi{
+    padding: 50px;
+}
+.tanda-panah img{
+    max-width: 40px;
+    margin-top: 10px;
+    visibility: hidden;
+}
+.judul-visi-misi{
+    font-size: 30px;
+    font-weight:bold ;
+}
+.isi-misi span{
+    font-size: 25px;
+    color: #ea5c15;
+    font-family: 'Concert One', sans-serif;
+}
+.visi{
+    max-width: 30%;
+}
+
+.misi{
+    display: flex;
+    margin-top: -40px;
+    overflow-x:scroll ;
+}
+.card-body{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 14px;
+    height: 230px;
+    padding-top: 150px;
+    color: white;
+    border-bottom: 30px;
+}
+.card-body:nth-child(1){
+    margin-left: -20px;
+}
+.teks-misi{
+    margin-top: 75px;
+    margin-left: -12px;
+}
+.card1{
+    background-image:url(../style/img/sosialisasi.png) ;
+    background-size: cover;
+}
+.card2{
+    background-image:url(../style/img/diskusi.png) ;
+    background-size: cover;
+}
+.card3{
+    background-image:url(../style/img/guru.png) ;
+    background-size: cover;
+}
+.card4{
+    background-image:url(../style/img/basket.png) ;
+    background-size: cover;
+}
+
+.card-body span{
+    font-size: 19px;
+    font-weight: bold;
+}
+.profil{
+    display: flex;
+    justify-content: space-around;
+    background-color: #414F79;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.foto-duta img{
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 6px;
+    border-radius:50% ;
+}
+.mabelle, .dhika{
+    display: flex;
+}
+.duta{
+    color: white;
+    font-size: 10px;
+
+}
+.nama{
+    font-size: 14px;
+    color: white;
+}
+.row-cols{
+    overflow-x: scroll;
+}
+@media only screen and (max-width: 900px) {
+    .deskripsi{
+        max-width: 90%;
+    }
+    .visi{
+        padding: 0;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-right: 0;
+    }
+    .judul-visi-misi{
+        font-size: 20px;
+        
+    }
+    .isi-visi{
+        font-size: 12px;
+    }
+    .card-body{
+        font-size: 12px;
+    }
+    .misi span{
+        font-size: 15px;
+    }
+    .navbar-brand{
+        margin-left: -9px;
+    }
+    .jumbotron .display-4{
+        font-size: 35px;
+        margin-top: 70px;
+    }
+    .jumbotron .lead{
+        font-size: 16px;
+    }
+    .teks-misi{
+        margin-top: 95px;
+    }
+    .tanda-panah img{
+        visibility: visible;
+    }
+    .visi{
+        margin-right: 10px;
+    }
+  }
+  @media only screen and (max-width: 900px){
+    .judul-visi-misi{
+        font-size: 17px;
+        
+    }
+    .isi-visi{
+        font-size: 10px;
+    }
+  }
