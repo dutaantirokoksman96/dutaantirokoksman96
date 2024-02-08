@@ -56,6 +56,7 @@ html{
     border-radius: 20px !important;
     border: 0px solid white !important;
     font-family: 'Concert One', sans-serif;
+    padding-bottom: 10px!important;
 }
 .btn-primary:hover{
     border-radius:10px !important;
@@ -217,6 +218,7 @@ hr {
     }
     .jumbotron .lead{
         font-size: 16px;
+        margin-top:10px;
     }
     .teks-misi{
         margin-top: 95px;
@@ -228,7 +230,7 @@ hr {
         margin-right: 10px;
     }
   }
-  @media only screen and (max-width: 900px){
+  @media only screen and (max-width: 420px){
     .judul-visi-misi{
         font-size: 17px;
         
@@ -241,4 +243,13 @@ hr {
     }
     .jumbotron .lead{
         font-size: 14px;
+        margin-top: 10px;
+   .deskripsi{
+        font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 600px){
+    .deskripsi{
+        font-size: 15px;
+    }
   }
