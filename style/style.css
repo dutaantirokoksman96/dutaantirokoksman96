@@ -56,7 +56,7 @@ html{
     border-radius: 20px !important;
     border: 0px solid white !important;
     font-family: 'Concert One', sans-serif;
-    padding-bottom: 10px!important;
+    padding-top: -10px!important;
 }
 .btn-primary:hover{
     border-radius:10px !important;
